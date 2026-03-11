@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.local.example
 
 # vercel
 .vercel
@@ -39,3 +40,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# MCP 설정
+.mcp.json
+
+# shrimp task manager
+shrimp-rules.md
+shrimp_data/
+
+#docs
+docs/
+
+# Claude Code 로컬 설정
+.claude/
